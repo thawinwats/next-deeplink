@@ -36,7 +36,11 @@ function DeepLinkValidator() {
     window.location.href = storeLink
   }
 
-  return <h1 className="text-9xl font-bold text-slate-50">Hello world!</h1>
+  return (
+    <h1 className="text-3xl lg:text-9xl font-bold text-slate-50">
+      Hello world!
+    </h1>
+  )
 }
 
 export default DeepLinkValidator
